@@ -68,7 +68,16 @@ body{
   font-size: 12px;
   font-style: oblique;
   color: rgb(204, 13, 13);
+
   
+  
+}
+.info-enter{
+  animation-name: fade-in;
+  animation-duration: 0.2s;
+  animation-direction: alternate;
+  animation-iteration-count: 4;
+  animation-timing-function: ease-in;
 }
 
 ul{

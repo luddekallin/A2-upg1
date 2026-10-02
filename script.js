@@ -38,11 +38,13 @@ function addToListFunction(){
     //skriver ut ett meddelande om input är tom
     if (input.trim() === ""){
         info.innerHTML= "Input must not be empty"
+        info.setAttribute("class", "info-enter");
         return;
     }
     else{
         //tar bort meddelandet om man skrivit något i input
         info.innerHTML="";
+        info.setAttribute("class", "");
 
         let item = document.createElement("li");
         const itemLabel = document.createElement("span");
